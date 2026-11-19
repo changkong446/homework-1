@@ -1,0 +1,21 @@
+# Keil 编译产物
+MDK-ARM/blink2/
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+MDK-ARM/startup_stm32f103xb.lst
+*.uvguix.*
+*.bak
+*.dep
+
+# CMSIS 里本工程没引用的
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/NN/
+Drivers/CMSIS/Lib/
+Drivers/CMSIS/RTOS/
+Drivers/CMSIS/RTOS2/
+Drivers/CMSIS/Core_A/
+Drivers/CMSIS/docs/
+
+# 系统垃圾
+Thumbs.db
+.DS_Store
